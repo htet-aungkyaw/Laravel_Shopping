@@ -12,4 +12,9 @@ class ItemController extends Controller
     {
         return view('admin.item.index');
     }
+
+    public function create()
+    {
+        return view('admin.item.create');
+    }
 }
